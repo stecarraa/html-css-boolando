@@ -19,6 +19,7 @@ header{
     text-align: center;
     margin: 0 auto;
     padding: 15px;
+    flex-wrap: wrap;
 }
 
 a{
@@ -48,4 +49,26 @@ i{
     width: 20%;
     color: white;
     padding: 15px;
+}
+
+img{
+    height: 400px;
+}
+.card {
+    position: relative;
+  
+}
+.card img.img-hover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+  
+}
+.card:hover img.img-hover {
+  opacity: 1;
 }
