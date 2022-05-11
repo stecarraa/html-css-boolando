@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: orange;
+}
+
+
+.flex-item{
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+
+i{
+    padding: 15px;
+}
+
+.logo{
+    height: 30px;
+}
+
+.logo-column{
+    width: 60%;
+}
+
+.type-column{
+    width: 20%;
+    padding: 15px;
+}
+
+.chart-column{
+    width: 20%;
+    color: white;
+    padding: 15px;
+}
