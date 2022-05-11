@@ -53,11 +53,14 @@ i{
 
 img{
     height: 400px;
+    
 }
 .card {
-    position: relative;
-  
+    position: relative; 
+    width: 33%; 
+    padding: 20px;
 }
+
 .card img.img-hover {
   position: absolute;
   top: 0;
@@ -67,6 +70,9 @@ img{
   object-fit: contain;
   opacity: 0;
   transition: opacity .2s;
+  width: 33%; 
+    padding: 20px;
+  
   
 }
 .card:hover img.img-hover {
