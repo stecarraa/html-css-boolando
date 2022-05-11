@@ -117,3 +117,15 @@ img{
 .full{
     text-decoration: line-through;
 }
+
+footer{
+    background-color: black;
+}
+
+.privacy-column{
+    text-align: left;
+}
+
+.site-column{
+    color: white;
+}
