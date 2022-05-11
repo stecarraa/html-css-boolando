@@ -7,11 +7,15 @@
 
 header{
     background-color: orange;
+    position: sticky;
+    top:0;
+    z-index: 999;
 }
 
 
+
 .flex-item{
-    width: 900px;
+    width: 1150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -32,49 +36,84 @@ i{
     padding: 15px;
 }
 
-.logo{
-    height: 30px;
+#logo{
+    height: 45px;
 }
 
-.logo-column{
-    width: 60%;
-}
+
 
 .type-column{
-    width: 20%;
     padding: 15px;
 }
 
 .chart-column{
-    width: 20%;
     color: white;
     padding: 15px;
 }
 
 img{
-    height: 400px;
-    
+   width: 100%;
+   padding: 5px;
 }
 .card {
     position: relative; 
-    width: 33%; 
-    padding: 20px;
+   width: 33%;
+   display:inline-block;
 }
 
 .card img.img-hover {
   position: absolute;
   top: 0;
-  right: 0;
   left: 0;
-  bottom: 0;
-  object-fit: contain;
   opacity: 0;
   transition: opacity .2s;
-  width: 33%; 
-    padding: 20px;
   
   
 }
+.card:hover .heart{
+    color: red;
+}
 .card:hover img.img-hover {
   opacity: 1;
+  display: block;
+}
+.card .percentage{
+    position: absolute;
+    left: 5px;
+    bottom: 100px;
+    background-color: rgb(255,0,0);
+    color: rgb(255, 255, 255);
+    padding: 3px;
+    font-weight: 600;
+    font-size: 10px;
+}
+
+.card .heart{
+    position: absolute;
+    top: 50px;
+    right: 0%;
+    font-size: 25px;
+}
+
+.card .sustainable{
+    position: absolute;
+    left: 40px;
+    bottom: 0;
+    background-color: #028759;
+    color: rgb(255, 255, 255);
+    padding: 3px;
+    font-weight: 600;
+    font-size: 10px;
+}
+
+.description{
+    text-align: left;
+}
+
+.discount{
+    color: red;
+}
+
+.full{
+    text-decoration: line-through;
 }
